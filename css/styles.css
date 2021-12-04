@@ -130,15 +130,15 @@ nav {
 .agency-link-active::after{
   width:54px;
   height: 4px;
-left: 434px;
-top: 32px;
+/* left: 434px;
+top: 32px; */
 }
 
 .portfolio-link-active::after{
   width:58px;
   height: 4px;
-left: 530px;
-top: 31px;
+/* left: 530px;
+top: 31px; */
 }
 .portfolio-link:active,
 .portfolio-link:hover,
