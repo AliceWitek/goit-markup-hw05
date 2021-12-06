@@ -531,6 +531,18 @@ flex-direction: row;
 margin-bottom: 83px;
 
 }
+
+/* .customers-icons-container:hover,
+.customers-icons-container:focus{
+  fill: var(--main-color);
+   transition-property:var(--main-color);
+  transition-duration: 250ms;
+} */
+
+
+.customer-icon:hover > .customer-svg{
+  fill:var(--main-color)
+}
 .our-customers-text{
 font-size: 36px;
 line-height: 1,17;
@@ -557,6 +569,7 @@ flex-direction: column;
 .customer-icon:hover,
 .customer-icon:focus{
   border-color: var(--main-color);
+  fill:var(--main-color);
   cursor: pointer;
   
 }
